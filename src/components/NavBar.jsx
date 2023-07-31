@@ -16,16 +16,16 @@ function NavBar() {
         <div className="hiddenLinks" >
           <Link to='/'>Home</Link>
           <Link to='/menu'>Menu</Link>
-          <Link to='/About'>About</Link>
-          <Link to='/Contact'>Contact</Link>
+          <Link to='/about'>About</Link>
+          <Link to='/contact'>Contact</Link>
         </div>
 
       </div>
       <div className="rightSide">
         <Link to='/'>Home</Link>
         <Link to='/menu'>Menu</Link>
-        <Link to='/About'>About</Link>
-        <Link to='/Contact'>Contact</Link>
+        <Link to='/about'>About</Link>
+        <Link to='/contact'>Contact</Link>
         <button onClick={toggleBar}>
           <ReorderIcon />
         </button>
